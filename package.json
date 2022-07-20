@@ -1,0 +1,28 @@
+{
+  "name": "create-wl-app",
+  "version": "1.0.0",
+  "description": "Weekend Labs' opinionated way to create new web projects with next, gatsby, and create-react-app.",
+  "contributors": [
+    "Owen Bick <owenbick@gmail.com>"
+  ],
+  "main": "index.js",
+  "bin": {
+    "create-ueno-app": "./bin/create-wl-app"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "ansi-escapes": "4.3.1",
+    "bluebird": "3.7.2",
+    "chalk": "4.0.0",
+    "commander": "5.0.0",
+    "create-react-app": "3.4.1",
+    "execa": "4.0.0",
+    "fs-extra": "9.0.0",
+    "gatsby-cli": "2.11.5",
+    "hosted-git-info": "3.0.4",
+    "ora": "4.0.3"
+  }
+}
